@@ -6,7 +6,8 @@
         "radio": "*",
         "microphone": "*",
         "Environment-and-Science-IoT": "github:tinkertanker/pxt-iot-environment-kit#v5.1.7",
-        "smarthon-smartcity-kit": "github:smarthon/pxt-smartcity#v0.1.49"
+        "smarthon-smartcity-kit": "github:smarthon/pxt-smartcity#v0.1.49",
+        "servo": "*"
     },
     "files": [
         "main.blocks",
