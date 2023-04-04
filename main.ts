@@ -55,7 +55,7 @@ function doOpenLid () {
         servos.P2.run(-20)
         while (pins.digitalReadPin(DigitalPin.P0) == 0 && !(IsStoped)) {
             basic.pause(10)
-            if (input.runningTime() > StartTime + 1600) {
+            if (input.runningTime() > StartTime + 2500) {
                 IsStoped = true
                 basic.showIcon(IconNames.No)
             }
